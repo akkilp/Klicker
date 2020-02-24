@@ -1,0 +1,23 @@
+{
+  "name": "heaven",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "client": "cd .. && cd frontend && npm start",
+    "backend": "nodemon app.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run backend\" \"npm run client\"",
+    "backend-install": "npm install",
+    "frontend-install": "cd .. && cd frontend && npm install",
+    "init-install": "npm run backend-install & npm run frontend-install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
+}
