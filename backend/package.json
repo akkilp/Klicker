@@ -9,7 +9,7 @@
     "dev": "concurrently --kill-others-on-fail \"npm run backend\" \"npm run client\"",
     "backend-install": "npm install",
     "frontend-install": "cd .. && cd frontend && npm install",
-    "install": "npm run backend-install & npm run frontend-install"
+    "init-install": "npm run backend-install & npm run frontend-install"
   },
   "author": "",
   "license": "ISC",
