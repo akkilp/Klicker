@@ -6,8 +6,8 @@ This application is homework for Vincit's Summer Developer position.
 
 ## Introduction
 
-Application consists of front- and backend. 
-Backend is powered with Node.js/Express, and is used for data storage and manipulation.
+Application consists of front- and backend. </br>
+Backend is powered with Node.js/Express, and is used for data storage and manipulation.</br>
 Frontend is ran by React, and is only used for displaying the data that is being fetched from backend API
 
 ## Setup
