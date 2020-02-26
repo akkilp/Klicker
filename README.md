@@ -1,26 +1,31 @@
-<pre>
+
 # Klicker
-Simple Express/React multiplayer clicking game
+
+Simple Express/React multiplayer clicking game</br>
 This application is homework for Vincit's Summer Developer position.
 
-# Introduction
+## Introduction
+
 Application consists of front- and backend. 
 Backend is powered with Node.js/Express, and is used for data storage and manipulation.
 Frontend is ran by React, and is only used for displaying the data that is being fetched from backend API
 
-# Setup
-  Requirements:
+## Setup
+
+### Requirements:
   1) Node.js
   2) Git
+  </br>
   
-  Steps:
+### Steps:
   1) git clone https://github.com/akkilp/Klicker.git
   2) cd .../Klicker/backend
   3) npm run init-install (Script for installing dependencies for front- backend)
   4) npm run dev (concurrently starts server & client side)
-    
-# Folder Structure
 
+## Folder Structure
+</br>
+<pre>
 Klicker 
 |
 |--backend
@@ -42,5 +47,5 @@ Klicker
 |        |--message.container.js--> Upper container that shows the messages
 |        |--nameform.js         --> When application is launched without user being known, nameform is rendered instead of
 |                                   game-button and info-container
- </pre>                                  
+</pre>
                                     
