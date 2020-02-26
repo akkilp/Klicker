@@ -10,9 +10,9 @@ const [animation, setAnimation]=useState(false);
 // useEffect hook is being ran every time when the newMessage
 // state is passed down the component.
 useEffect( () =>{
-    if(animation){
-        setAnimation(false)
-    } else setAnimation(true)
+    if(props.newMessage){
+        setAnimation(true)
+    } else setAnimation(false)
 }, [props.newMessage] );
 
 return(
@@ -25,7 +25,7 @@ return(
         classNames="alert"
         timeout={4000}
         unmountOnExit>
-            <span>{props.message}</span>
+            <span>{props.message ? props.message : "What is your name?"}</span>
         </CSSTransition>
         </div>
     </div>

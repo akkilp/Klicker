@@ -18,7 +18,7 @@ function App() {
   const [points, setPoints] = useState("")
   const [clicksToNext, setClicksToNext] = useState("")
   const [nextWin, setWinAmount] = useState("")
-  const [message, setMessage] = useState("What is your name?")
+  const [message, setMessage] = useState(false)
   const [gameOver, setGameOver] = useState(false)
   const [newMessage, setNewMessage] = useState(true)
   const [loading, setLoading] = useState(true)
