@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 function MessageContainer (props) {
 
-const [animation, setAnimation]=useState(false);
+const [animation, setAnimation]=useState(true);
 
 // useEffect hook is being ran every time when the newMessage
 // state is passed down the component.
